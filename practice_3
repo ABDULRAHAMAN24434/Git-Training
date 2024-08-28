@@ -1,0 +1,6 @@
+import random
+fufu = "swallow"
+rice = "not swallow"
+orange = "fruit"
+choice = [fufu, rice, orange]
+print(f"{choice[random.randint(0,2)]} is all i have for you.")
